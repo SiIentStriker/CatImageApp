@@ -63,3 +63,6 @@ Die folgenden Abhängigkeiten werden für das Projekt benötigt:
   - `layout`: Enthält Layout-Dateien.
   - `menu`: Enthält Menü-Ressourcen.
   - `values`: Enthält Werte-Ressourcen wie Farben, Strings und Themes.
+ 
+## Bekannte Fehler
+  -Nach dem Generieren einer Katze und danach die Katzendetails anzuschauen kann zum Crashen der App führen (Nur 1 mal nach dem start der App)
