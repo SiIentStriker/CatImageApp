@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RandomCatImageApp</string>
+    <string name="cat_api_key">live_eZXAuPp26y2Vvwhk7wv38x6RCr0sMmbBMl9eF1KLNNTHzPklNEKnyDIs9MKPA7jG</string>
+    <string name="cat_image">Cat Image</string>
+<string-array name="sort_options">
+    <item>Sort by Name</item>
+    <item>Sort by Age</item>
+</string-array>
+</resources>

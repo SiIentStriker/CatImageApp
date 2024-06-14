@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_delete_database"
+        android:title="Delete Database"/>
+    <item
+        android:id="@+id/menu_add_ten_cats"
+        android:title="Add 10 Cats"/>
+
+        <item
+            android:id="@+id/menu_sort_name_az"
+            android:title="Sort by Name (A-Z)"/>
+        <item
+            android:id="@+id/menu_sort_name_za"
+            android:title="Sort by Name (Z-A)"/>
+        <item
+            android:id="@+id/menu_sort_newest"
+            android:title="Sort by Newest"/>
+        <item
+            android:id="@+id/menu_sort_oldest"
+            android:title="Sort by Oldest"/>
+</menu>
