@@ -38,7 +38,6 @@ class MainActivity : AppCompatActivity() {
         recyclerViewCats = findViewById(R.id.recyclerViewCats)
         buttonGenerateCat = findViewById(R.id.buttonGenerateCat)
         buttonOpenCamera = findViewById(R.id.buttonOpenCamera)
-        buttonScanQrCode = findViewById(R.id.buttonScanQrCode)
 
         recyclerViewCats.layoutManager = LinearLayoutManager(this)
         catAdapter = CatAdapter(emptyList()) { cat ->
@@ -55,11 +54,6 @@ class MainActivity : AppCompatActivity() {
         buttonOpenCamera.setOnClickListener {
             val intent = Intent(this, CameraActivity::class.java)
             startActivity(intent)
-        }
-
-        buttonScanQrCode.setOnClickListener {
-            val intent = Intent(this, QrCodeScannerActivity::class.java)
-            startActivityForResult(intent, QR_CODE_SCAN_REQUEST_CODE)
         }
 
         loadSavedCats("newest")
