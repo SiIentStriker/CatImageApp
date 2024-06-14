@@ -54,7 +54,6 @@ Die folgenden Abhängigkeiten werden für das Projekt benötigt:
     - `CatDetailActivity.kt`: Aktivität zur Anzeige der Details einer Katze.
     - `CatImageResponse.kt`: Datenklasse für das API-Antwortformat.
     - `MainActivity.kt`: Hauptaktivität der App.
-    - `QrCodeScannerActivity.kt`: Aktivität zum Scannen von QR-Codes.
     - `RandomCatInfoGenerator.kt`: Generiert zufällige Katzeninformationen.
     - `RetrofitClient.kt`: Konfiguriert Retrofit für API-Aufrufe.
 
