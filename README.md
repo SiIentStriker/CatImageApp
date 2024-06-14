@@ -36,3 +36,30 @@ Die folgenden Abhängigkeiten werden für das Projekt benötigt:
 - Glide: für das Laden von Bildern
 - ZXing: für die QR-Code-Generierung und -Scannen
 - Room: für die lokale Datenbank
+  
+## Projektstruktur
+
+- **manifests**
+  - `AndroidManifest.xml`: Manifest-Datei für die App.
+
+- **kotlin-java**
+  - `com.example.randomcatimageapp`
+    - `ui.theme`: Theme-Dateien für die App.
+    - `ApiService.kt`: Definiert die Schnittstelle für die API-Aufrufe.
+    - `CameraActivity.kt`: Aktivität zum Scannen von QR-Codes.
+    - `Cat.kt`: Datenklasse für Katzeninformationen.
+    - `CatAdapter.kt`: Adapter für die RecyclerView.
+    - `CatDao.kt`: Datenzugriffsobjekt für die Cat-Datenbank.
+    - `CatDatabase.kt`: Datenbankkonfiguration.
+    - `CatDetailActivity.kt`: Aktivität zur Anzeige der Details einer Katze.
+    - `CatImageResponse.kt`: Datenklasse für das API-Antwortformat.
+    - `MainActivity.kt`: Hauptaktivität der App.
+    - `QrCodeScannerActivity.kt`: Aktivität zum Scannen von QR-Codes.
+    - `RandomCatInfoGenerator.kt`: Generiert zufällige Katzeninformationen.
+    - `RetrofitClient.kt`: Konfiguriert Retrofit für API-Aufrufe.
+
+- **res**
+  - `drawable`: Enthält Zeichnungsressourcen.
+  - `layout`: Enthält Layout-Dateien.
+  - `menu`: Enthält Menü-Ressourcen.
+  - `values`: Enthält Werte-Ressourcen wie Farben, Strings und Themes.
